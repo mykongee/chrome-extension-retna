@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Retna",
+    "version": "1.0",
+    "description": "Shows you the rgb value of an element in the browser.",
+    "browser_action": {
+        "default_icon": "./assets/icon.png"
+    }, 
+    "permissions": ["tabs", "*://*/*", "storage"],
+    "background": {
+        "persistent": false,
+        "scripts": ["./src/background.js"]
+    },
+    "commands": {
+        "eye-drop": {
+            "suggested_key": {
+                "windows": "Ctrl+Shift+F",
+                "mac": "Command+Shift+F",
+                "chromeos": "Ctrl+Shift+F",
+                "linux": "Ctrl+Shift+F"
+            },
+            "description": "Shows you the rgb value of an element in the browser."
+        }
+    }
+}

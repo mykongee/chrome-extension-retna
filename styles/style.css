@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+  }
+
+  td, th {
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5px 5px;
+}
+
+  thead {
+    background-color: aliceblue;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background-color: #40a3dd;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    color: #ffffff;
+    margin: 8px 4px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
